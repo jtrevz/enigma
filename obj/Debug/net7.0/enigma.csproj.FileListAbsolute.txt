@@ -1,0 +1,14 @@
+/Users/jennytrevizo/Documents/Dev/C#/enigma/bin/Debug/net7.0/enigma
+/Users/jennytrevizo/Documents/Dev/C#/enigma/bin/Debug/net7.0/enigma.deps.json
+/Users/jennytrevizo/Documents/Dev/C#/enigma/bin/Debug/net7.0/enigma.runtimeconfig.json
+/Users/jennytrevizo/Documents/Dev/C#/enigma/bin/Debug/net7.0/enigma.dll
+/Users/jennytrevizo/Documents/Dev/C#/enigma/bin/Debug/net7.0/enigma.pdb
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.AssemblyInfoInputs.cache
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.AssemblyInfo.cs
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.csproj.CoreCompileInputs.cache
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.dll
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/refint/enigma.dll
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.pdb
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/enigma.genruntimeconfig.cache
+/Users/jennytrevizo/Documents/Dev/C#/enigma/obj/Debug/net7.0/ref/enigma.dll
