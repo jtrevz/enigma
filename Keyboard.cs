@@ -14,8 +14,6 @@
 // Console.WriteLine(k.DecodeKey(index2));
 
 
-
-
 public class Keyboard
 {
     public string Alphabet { get; }
@@ -41,3 +39,4 @@ public class Keyboard
         return Alphabet[key];
     }
 }
+
