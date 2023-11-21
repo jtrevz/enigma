@@ -37,6 +37,8 @@ public class Rotor
                 break;
         }
     }
-
+    //Pass to and fron functions
+    // step/turn
+    // internal or external next step implementation
 }
 
