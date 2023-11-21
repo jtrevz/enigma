@@ -1,25 +1,12 @@
-﻿//Plugboard Class
-//Ability to add pairs (left and right?)
-//amount of pairs available
-Plugboard plugboard = new Plugboard();
-
-plugboard.AddPair(2, 4);
-plugboard.AddPair(21, 7);
-plugboard.AddPair(12, 14);
-plugboard.AddPair(5, 9);
-plugboard.AddPair(8, 2);
-
-foreach (int[] pair in plugboard.GetPairs())
-{
-    Console.WriteLine(pair[0]);
-}
-public class Plugboard
+﻿public class Plugboard
 {
     public List<int[]> Pairs;
+
 
     public Plugboard()
     {
         Pairs = new List<int[]>();
+
     }
     public int GetPairCount()
     {
@@ -27,14 +14,34 @@ public class Plugboard
     }
     public void AddPair(int val1, int val2)
     {
-        if (this.GetPairCount() < 10)
+        if (this.GetPairCount() < 10 && !this.ContainsChar(val1) && !this.ContainsChar(val2))
         {
             Pairs.Add(new int[] { val1, val2 });
         }
     }
-    public List<int[]> GetPairs()
+    public bool ContainsChar(int val)
     {
-        return Pairs;
+        foreach (int[] pair in Pairs)
+        {
+            if (pair[0] == val || pair[1] == val)
+            {
+                return true;
+            }
+        }
+        return false;
     }
+    public int Pass(int value)
+    {
+        foreach (int[] pair in Pairs)
+        {
+            if (pair[0] == value) return pair[1];
+            if (pair[1] == value) return pair[0];
+        }
+        return value;
+    }
+
+
 }
+
+
 
