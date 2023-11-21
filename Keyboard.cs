@@ -1,17 +1,17 @@
 //Keyboard 
 //Incoming letter to code/ outgoing code back to letter
-Keyboard k = new Keyboard();
-char input1 = 'C';
-char input2 = 'e';
+// Keyboard k = new Keyboard();
+// char input1 = 'C';
+// char input2 = 'e';
 
-int index1 = k.EncodeLetter(input1);
-int index2 = k.EncodeLetter(input2);
-Console.WriteLine(index1);
-Console.WriteLine(index2);
+// int index1 = k.EncodeLetter(input1);
+// int index2 = k.EncodeLetter(input2);
+// Console.WriteLine(index1);
+// Console.WriteLine(index2);
 
 
-Console.WriteLine(k.DecodeKey(index1));
-Console.WriteLine(k.DecodeKey(index2));
+// Console.WriteLine(k.DecodeKey(index1));
+// Console.WriteLine(k.DecodeKey(index2));
 
 
 
